@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary1:#FFBE34;
+  --primary2: #091242;
+  --secondary1: #F4F4F4;
+  --headingFont:#1C1F35;
+  --paragraphFont:#666C89;
+  --background:rgba(9, 18, 66, 0.25);
+  --navBar: rgba(9, 18, 66, 0.25);
+  --gradient: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%);
+  --button1:#FFB629;
+  --button2:#FFDA56;
+  --button3:#FFD7A6;
+
+
+
+}
+@font-face {
+  font-family:krub ;
+  src: url('./asset/fonts/Krub.ttf');
+}
+@font-face {
+  font-family:Rubik;
+  src: url('./asset/fonts/Rubik.ttf');
+}
+.rubik{
+  font-family: Rubik ;
+}
+.krub{
+  font-family: Krub ;
+}
+.primary1{
+  background-color:var(--primary1)
+}
+.primary2{
+  background-color:var(--primary2)
+}
+.primary3{
+  background-color:var(--background)
+}
+.secondary{
+color:var(--secondary1)
+}
+.secondary1{
+  background-color:var(--secondary1)
+}
+.headFont{
+  background-color:var(--headingFont)
+}
+.paragraphFont{
+  background-color:var(--paragraphFont)
+}
+.nav{
+  background:var(--navBar)
+}
+.hero{
+  background-image: url('./asset//image//Photo.svg');
+  background-size: cover;
+  height: 6  00px;
+  padding: 100px 0;
+}
+.button1{
+  background: var(--button1);
+}
+.button2{
+  background: var(--button2);
+}
+.button3{
+  background: var(--button3);
+}
+.heroButton{
+  background-image: url('./asset//image/Button.svg');
+  background-size: cover;
+}
+.heroLogistic{
+  padding:5px;
+  border-left:5px solid var(--button2);
+  background: rgba(4, 28, 55, 0.5);
+}
+.heroAbout{
+  border-left:5px solid var(--button2);
+}
+.herp span{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+.hero h1{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 71px;
+}
+.hero p{
+  font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+}
+.service{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px
+}
+.logister{
+  border-left:5px solid var(--button1)
+}
+.BannerContent{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 41px;
+
+color: #1C1F35;
+}
+.BannerContentPara{
+  font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89;
+}
+
+.bannerImg{
+  width:100%;
+  height:250px;
+}
+.bannerBig{
+  position: relative;
+  width: 100%;
+  height: 800px
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background-color:var(--secondary1);
+  padding: 20px;
+  padding: 20px;
+  height: 600px;
+  /* padding-top: 10px;  */
+}
+.planeOverlay{
+  position: relative;
+}
+.ImgOverlay{
+  border:  30px solid var(--secondary1);
+  position: absolute;
+  top: 60%;
+  right: 60%;
+}
+.transpoetNumber{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 59px;
+
+color: #1C1F35;
+}
+.transportDetails{
+  font-family: 'Rubik';
+  /* font-family: 'League Spartan'; */
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+
+color: #1C1F35;
+}
+.transportBorder{
+  border: 1px solid #D5D5D5;
+  border-right: none;
+  /* border:5px solid var(--secondary1); */
+}
+.transportBorde{
+  border: 1px solid #D5D5D5;
+  border-left: none;
+  /* border:5px solid var(--secondary1); */
+}
+.transportH1{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  color: #1C1F35;
+}
+.transportHolder{
+  position: relative;
+}
+.grade{
+  height: 300px;
+  background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+  /* z-index: -2; */
+  /* position: absolute; */
+  /* bottom: 20px; */
+  transform: translateY(-70px);
+}
+.grade >button{
+  margin-top:150px
+}
+.transportImg{
+  z-index: 2;
+}
+/* !testimony */
+.testimony > span{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #1C1F35;
+border-left: 2px solid var(--button1);
+}
+.testimony h3{
+  
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 41px;
+color: #1C1F35;
+}
+.fuel{
+  font-family: 'Krub';
+font-style: italic;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #666C89
+}
+.restoration{
+  font-family: 'Krub';
+font-style: italic;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+/* or 24px */
+
+
+color: #FFFFFF;
+}
+.fuel h3{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+.restoration h3{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+.fuel h6{
+  font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+}
+.restoration h6{
+  font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+}
